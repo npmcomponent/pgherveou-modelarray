@@ -1,35 +1,11 @@
 {
-  "name": "modelarray",
+  "name": "pgherveou-modelarray",
   "description": "data models array",
   "version": "0.0.8",
-  "author": "PG Herveou",
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/pgherveou/modelarray/issues"
-  },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pgherveou/modelarray.git"
-  },
-  "keywords": [
-    "model",
-    "collection",
-    "array"
-  ],
+  "keywords": [],
+  "main": "index.js",
   "dependencies": {
-    "emitter": "http://github.com/component/emitter/archive/1.0.1.tar.gz"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "grunt": "*",
-    "grunt-shell": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-connect": "*",
-    "grunt-contrib-clean": "*"
-  }
+  "license": "MIT"
 }

@@ -2,7 +2,7 @@
  * dependencies
  */
 
-var emitter = require('emitter');
+var emitter = require('component-emitter');
 
 /**
  * ModelArray Constructor
